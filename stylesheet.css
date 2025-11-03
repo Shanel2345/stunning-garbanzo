@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 0, 0);
+    color: rgb(179, 142, 142);
+}
+
+a:not(#accept-invitation){
+    text-decoration: none;
+     color: rgb(15, 0, 0);
+}
+
+a#accept-invitation{
+     color: rgb(15, 0, 0);
+    background-color: rgb(179, 142, 142);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.text{
+    text-align: center;
+    margin-top: 50%;
+    padding-top: 20px;
+
+}
+
+.buttons-index {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+    .buttons-index-yes{
+        border-style: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+         color: rgb(15, 0, 0);
+    background-color: rgb(179, 142, 142);
+    }
+
+    .buttons-index-no{
+        border-style: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+         color: rgb(15, 0, 0);
+    background-color: rgb(179, 142, 142);
+    }
+
+/* If no page*/
+
+.buttons-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons-two button{
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(15, 0, 0);
+    background-color: rgb(179, 142, 142);
+}
+
+/* Let's go page */
+.body-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-two{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
